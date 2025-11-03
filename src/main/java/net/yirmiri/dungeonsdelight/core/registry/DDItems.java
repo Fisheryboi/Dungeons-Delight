@@ -29,7 +29,7 @@ public class DDItems {
     //INGREDIENTS
     public static final RegistryObject<Item> STAINED_SCRAP = ITEMS.register("stained_scrap", () -> new Item(DDProperties.ItemP.GENERIC_UNCOMMON));
     public static final RegistryObject<Item> STAINED_SCRAP_FRAGMENT = ITEMS.register("stained_scrap_fragment", () -> new Item(DDProperties.ItemP.GENERIC_UNCOMMON));
-    public static final RegistryObject<Item> SCULK_POLYP = ITEMS.register("sculk_polyp", () -> new Item(DDProperties.ItemP.GENERIC));
+    public static final RegistryObject<Item> SCULK_POLYP = ITEMS.register("sculk_polyp", () -> new Item(DDProperties.ItemP.GENERIC.stacksTo(64)));
     public static final RegistryObject<Item> ANCIENT_EGG = ITEMS.register("ancient_egg", () -> new AncientEggItem(DDProperties.ItemP.GENERIC_16));
     public static final RegistryObject<Item> ROTBULB = ITEMS.register("rotbulb", () -> new Item(DDProperties.ItemP.GENERIC_MONSTER));
     public static final RegistryObject<Item> GUNK = ITEMS.register("gunk", () -> new BlockItem(DDBlocks.GUNK.get(), DDProperties.ItemP.GENERIC_MONSTER));

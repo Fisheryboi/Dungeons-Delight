@@ -178,6 +178,7 @@ public class DDProperties {
 
         //GENERIC FOODS
         public static final FoodProperties SLIME_BAR = new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).build();
+        public static final FoodProperties SCULK_POLYP = new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).build();
         public static final FoodProperties SLIME_NOODLES = new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).build();
         public static final FoodProperties SILVERFISH_ABDOMEN = new FoodProperties.Builder().nutrition(2).saturationMod(0.4F).meat().build();
         public static final FoodProperties GHAST_CALAMARI = new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).meat().fast().build();
